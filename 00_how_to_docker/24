@@ -1,0 +1,7 @@
+# 24. Launch a rabbitmq SERVICE that will be named orbital-command. You should define a specific user and password 
+# for the RabbitMQ service, they can be whatever you want. This service will be on the overmind network.
+
+docker service create -d --name orbital-command --network overmind -e RABBITMQ_DEFAULT_USER=rainor -e RABBITMQ_DEFAULT_PASS=kerrigan rabbitmq
+
+#   -d, --detach                             Exit immediately instead of waiting for the service to converge
+#   -e, --env list                           Set environment variables

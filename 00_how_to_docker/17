@@ -1,0 +1,6 @@
+# 17. Display all the currently active containers on the Char virtual machine.
+
+docker ps
+
+# docker ps --help
+# docker ps -a
