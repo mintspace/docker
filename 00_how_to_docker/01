@@ -3,6 +3,8 @@
 docker-machine create --driver virtualbox Char
 
 # to start machine: docker-machine start Char
+# eval $(docker-machine env Char)
+
 # docker-machine regenerate-certs 'name'  // docker-machine url Char
 # docker-machine ls
 # docker ps // machine info
