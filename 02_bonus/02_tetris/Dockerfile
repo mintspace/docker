@@ -9,6 +9,6 @@ WORKDIR /usr/games/
 
 ENTRYPOINT ./bastet
 
-# docker build -t  tetris .
+# docker build -t tetris .
 # docker run tetris
 # docker run -it ubuntu bash // run ubuntu
